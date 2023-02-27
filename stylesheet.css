@@ -1,0 +1,148 @@
+header {
+    background-color:	#dcdcdc;
+    height: 65px;
+    width:100%;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+
+.logo {
+    width:200px;
+    padding-left: 30px;
+    float:left;
+}
+
+
+.header-right {
+    float:right;
+    transition:all 0.5s;
+    background-color:	#a9a9a9;
+    display: inline-block;
+    margin-right:30px;
+}
+
+.header-right:hover {
+    background-color:	#c0c0c0
+}
+
+.header-right a {
+    display: block;
+    color: white;
+    padding: 0px 25px;
+    line-height: 65px;
+}
+
+.heading {
+    float:left;
+    color:white;
+    padding-top:30px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-wrapper {
+    background-image: url(sozai/S__395296770.jpg);
+    opacity: 0.5;
+    height: 1000px;
+    width: auto;
+    position: relative;
+}
+
+.copy-container {
+    position: absolute;
+    top: 330px;
+    left: 220px;
+    opacity: 0.8;
+   
+}
+
+.copy-container h1 {
+   font-size: 80px;
+   letter-spacing: 10px;
+   color:black
+   
+}
+
+.copy-container h2 {
+    text-align: center;
+    padding-top:20px ;
+    font-weight: normal;
+}
+
+.btn-wrapper {
+    text-align: center;
+    position: absolute;
+    left: 620px;
+    top: 600px;
+
+}
+
+.signup {
+    background-color:#315096;
+    margin-bottom: 10px;
+}
+
+.instagram {
+    background-color: #833ab4;
+    margin-top: 10px;
+}
+
+.telephone {
+    background-color: #00c300	;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    opacity: 0.8;
+    border-radius: 8px;
+    display: inline-block;
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    padding-right:5px;
+}
+
+.footer  {
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    opacity: 0.9;
+    
+}
+
+.footer-logo {
+    float:left;
+    font-size: 30px;
+    padding: 10px 40px;
+    color: white;
+}
+
+.footer-list li {
+float: right;
+padding: 25px 20px;
+color: white;
+}
+
+@media(max-width:670px) {
+    .top-wrapper {
+        width: 100%;
+    }
+}
